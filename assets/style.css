@@ -1,0 +1,12 @@
+p {
+	color: blue;
+}
+
+body {
+	 --base-size: 12px;
+	 --gutter-size: calc(3 * var(--base-size)),
+
+	 --primary--color: black;
+	 --secondary--color: gold;
+	 --background--color: white;
+}
