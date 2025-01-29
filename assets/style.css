@@ -5,8 +5,8 @@
 	 --gutter-size: calc(3 * var(--base-size));
 
 	 --primary--color: black;
-	 --secondary--color: gold;
-	 --background--color: aqua;
+	 --secondary--color: rgb(233, 251, 228);
+	 --background--color: rgb(180, 205, 255);
 
 	 font-size: var(--base-size);
 }
@@ -38,3 +38,19 @@ footer{
 .gutters{
 	padding-inline: var(--gutter-size);
 }
+
+.list-of-things{
+	display: flex;
+	gap: 60px;
+
+	a {
+		display: block;
+		padding-inline: 44px;
+		padding-block: 24px;
+		border-radius: 24%;
+		background-color: var(--secondary--color);
+		width: fit-content;
+	}
+	
+}
+
